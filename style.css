@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+     position: fixed;
+     width: 100%;
+     background-color: whitesmoke;
+     top: 0;
+     z-index: 1;
+}
+
+nav a {
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 15px;
+    color: gray;
+}
+nav a:hover {
+        color: black;
+        cursor: pointer;
+        text-decoration: 2px solid underline green ;
+        transition: 0.2s ease;
+}
+
+button {
+     padding: 10px;
+     border-radius: 50px;
+     background: green;
+}
+button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+}
+main article {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+main article h1 {
+     font-family: "Oswald", sans-serif;
+}
+main article p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: gray;
+    width: 40%;
+    word-spacing: 5px;
+}
+main .image {
+    margin-top: 50px;
+    /* background-image: url(images/bg-intro-desktop.svg) ; */
+    background-size: cover;
+}
+
+.features {
+    background: lightgray;
+    border: 400px;
+    justify-content: space-between;
+}
+.featurehead {
+    width: 40%;
+    margin-left: 50px;
+    padding: 30px;
+    justify-content: space-around;
+}
+.parag {
+    color: red;
+}
+/* .featurehead p {
+
+    margin-top: 100px;
+    width: 40%;
+} */
+.list {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    gap: 20px;
+}
+.list .para {
+    color: gray;
+    margin-bottom: 50px;
+}
+.article {
+    margin-top: 50px;
+}
+.article h2 {
+    margin-left: 50px;
+}
+.article h3{
+    width: 70%;
+}
+.article p {
+    color: gray;
+    width: 80%;
+}
+
+footer {
+    display: flex;
+    background: darkblue;
+    justify-content: space-between;
+}
+.socials {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.socials ul li {
+    display: inline;
+    margin-left: 20px;
+}
+footer p {
+    color: aliceblue;
+}
+
+.navlist {
+    margin-top: 30px;
+    display: flex;
+    gap: 70px;
+}
+.navlist a {
+    margin: 10px;
+    display: flex;
+    color: gray;
+    text-decoration: none;
+    word-spacing: 5px;
+
+}
+.navlist a:hover {
+    color: aliceblue;
+    transition: 0.4s ease-in;
+}
+
+.button {
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.fa-home {
+    color: green;
+}
