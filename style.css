@@ -123,7 +123,7 @@ main .image {
     transform: scale(1.3) translateY(-5px);
     background-color: black;
     box-shadow: 0 0 25px black;
-
+}
 footer {
     display: flex;
     background: darkblue;
