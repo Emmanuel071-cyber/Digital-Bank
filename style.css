@@ -104,21 +104,32 @@ main .image {
     color: gray;
     width: 80%;
 }
+.social ul li a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.7rem;
+    height: 2rem;
+    background-color: transparent;
+    border: 0.2rem solid black;
+    font-size: 1rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: #b74b4b;
+}
+.social ul li a:hover {
+    color: whitek;
+    transform: scale(1.3) translateY(-5px);
+    background-color: black;
+    box-shadow: 0 0 25px black;
 
 footer {
     display: flex;
     background: darkblue;
     justify-content: space-between;
 }
-.socials {
-    margin-top: 40px;
-    margin-left: 30px;
-    margin-bottom: 50px;
-}
-.socials ul li {
-    display: inline;
-    margin-left: 20px;
-}
+
 footer p {
     color: aliceblue;
 }
@@ -149,23 +160,3 @@ footer p {
 .fa-home {
     color: green;
 }
-
-.social ul li a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 1.7rem;
-    height: 2rem;
-    background-color: transparent;
-    border: 0.2rem solid black;
-    font-size: 1rem;
-    border-radius: 50%;
-    margin: 3rem 1.5rem 3rem 0;
-    transition: 0.3s ease;
-    color: #b74b4b;
-}
-.social ul li a:hover {
-    color: whitek;
-    transform: scale(1.3) translateY(-5px);
-    background-color: black;
-    box-shadow: 0 0 25px black;
